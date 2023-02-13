@@ -52,6 +52,7 @@ gstreamer1.0-tools libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstre
 ros-melodic-desktop-full python-rosinstall python-rosinstall-generator python-wstool build-essential python-rosdep \
 ros-melodic-socketcan-bridge \
 ros-melodic-geodesy \
+ros-melodic-joint-trajectory-controller ros-melodic-ros-control ros-melodic-ros-controllers \
 ros-melodic-moveit && \
 sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*
 
