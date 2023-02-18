@@ -1,8 +1,7 @@
 # ros-docker
 This repository contains Dockerfiles for ros.
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-
+\
 ## Available versions
 | Version | Status  | README                                |
 | ------- | ------- | ------------------------------------- |
