@@ -14,11 +14,10 @@ docker run -it --privileged --net host --ipc host \
         -e LOCAL_UID=`id -u $USER` -e LOCAL_GID=`id -g $USER` \
         -v $PWD/src:/home/ubuntu/catkin_ws/src/ \
         -e LOCAL_DEVICE=YOUR_DEVICE \
-        --device YOUR_DEVICE:YOUR_DEVICE \
-        --name ros-melodic-dynamixel \
-        ubuntu-melodic:latest bash
+        --device /dev/YOUR_DEVICE:/dev/YOUR_DEVICE \
+        ubuntu-melodic-dynamixel:latest bash
 ~~~
-YOUR_DEVICE is, e.g,  /dev/ttyUSB0.
+YOUR_DEVICE is your usb device, e.g, ttyUSB0.
 
 - Without dynamixel
 ~~~
@@ -27,7 +26,7 @@ docker run -it --privileged --net host --ipc host \
         -e LOCAL_UID=`id -u $USER` -e LOCAL_GID=`id -g $USER` \
         -v $PWD/src:/home/ubuntu/catkin_ws/src/ \
         --name ros-melodic \
-        ubuntu-melodic:latest bash
+        ubuntu-melodic-dynamixel:latest bash
 ~~~
 
 

@@ -66,8 +66,8 @@ RUN mkdir -p /home/ubuntu/catkin_ws/src
 
 # Entry script - This will also run terminator
 COPY ./entrypoint.sh /home/ubuntu/entrypoint.sh
-COPY ./usercontrol.sh /home/ubuntu/usercontrol.sh
-COPY ./devicecontrol.sh /home/ubuntu/devicecontrol.sh
+COPY ./user_control.sh /home/ubuntu/user_control.sh
+COPY ./device_control.sh /home/ubuntu/device_control.sh
 RUN sudo chmod +x /home/ubuntu/*.sh
 USER root
 ENTRYPOINT ["/home/ubuntu/entrypoint.sh"]

@@ -1,1 +1,0 @@
-chmod 666 $LOCAL_DEVICE 
