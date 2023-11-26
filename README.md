@@ -2,11 +2,11 @@
 This repository contains Dockerfiles for ros.
 
 ## Available versions
-| Version | Status  | README                                |
-| ------- | ------- | ------------------------------------- |
-| melodic | Built   | [README.md](Ubuntu/melodic/README.md) |
-| noetic  | Built   |                                       |
-| foxy    | Not yet |                                       |
+| Version | Status  |
+| ------- | ------- |
+| melodic | Built   |
+| noetic  | Built   |
+| foxy    | Not yet |
 
 
 ## How to run
